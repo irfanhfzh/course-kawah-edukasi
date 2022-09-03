@@ -1,0 +1,34 @@
+/* Tag */
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* id */
+#navbar {
+  background-color: rgb(40, 42, 53);
+  color: rgb(241, 241, 241);
+
+  /* FLEX BOX */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* class */
+.menu {
+  display: flex;
+}
+
+.item {
+  /* background-color: red; */
+  /* Margin => Jarak keluar */
+  margin: 4px 8px;
+  /* Padding => Jarak ke dalam */
+  padding: 4px;
+}
+
+.item:hover {
+  background-color: #000;
+}
